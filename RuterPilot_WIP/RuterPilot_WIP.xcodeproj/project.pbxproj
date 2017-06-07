@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048F4BB48D9F16D93926E1BF /* Pods_RuterPilot_WIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFA281E6F0D61AF5ECC3EB6 /* Pods_RuterPilot_WIP.framework */; };
+		6A046CBE1EDDA09B00C79575 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A046CBD1EDDA09B00C79575 /* Images.xcassets */; };
+		6A98023B1EE6D93D00C7CEEB /* container in Resources */ = {isa = PBXBuildFile; fileRef = 6A98023A1EE6D93D00C7CEEB /* container */; };
+		6A98023F1EE6E08500C7CEEB /* SetupAndDescripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09A21EDBF54400F576B3 /* SetupAndDescripViewController.swift */; };
+		6A9802401EE6E08500C7CEEB /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09841ED30F3C00F576B3 /* MainController.swift */; };
+		6A9802411EE6E08500C7CEEB /* SuccessMobilePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB099E1ED857D700F576B3 /* SuccessMobilePayViewController.swift */; };
+		6A9802421EE6E08500C7CEEB /* OnboardBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09A61EDBFB7B00F576B3 /* OnboardBluetoothViewController.swift */; };
+		6A9802431EE6E08500C7CEEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09701ED2FBD500F576B3 /* AppDelegate.swift */; };
+		6A9802441EE6E08500C7CEEB /* OnboardingCreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09921ED837AB00F576B3 /* OnboardingCreateUserViewController.swift */; };
+		6A9802451EE6E08500C7CEEB /* TravelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09B61EDC341300F576B3 /* TravelsViewController.swift */; };
+		6A9802461EE6E08500C7CEEB /* OnboardIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB098A1ED3179100F576B3 /* OnboardIntroViewController.swift */; };
+		6A9802471EE6E08500C7CEEB /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09AA1EDC060F00F576B3 /* Utils.swift */; };
+		6A9802481EE6E08500C7CEEB /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09AC1EDC191200F576B3 /* TicketViewController.swift */; };
+		6A9802491EE6E08500C7CEEB /* ConnectMobilePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB099A1ED851DA00F576B3 /* ConnectMobilePayViewController.swift */; };
+		6A98024A1EE6E08500C7CEEB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09B21EDC296E00F576B3 /* ProfileViewController.swift */; };
+		6A98024B1EE6E08500C7CEEB /* CreateUserPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09961ED844C800F576B3 /* CreateUserPasswordViewController.swift */; };
+		6A98024C1EE6E08500C7CEEB /* BluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09BE1EDC4B0A00F576B3 /* BluetoothViewController.swift */; };
+		6A98024D1EE6E08500C7CEEB /* OnboardingRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB098E1ED31FD500F576B3 /* OnboardingRootViewController.swift */; };
+		6A98024E1EE6E08500C7CEEB /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09BA1EDC362A00F576B3 /* ContactViewController.swift */; };
+		6A9802501EE6E08500C7CEEB /* Pods_RuterPilot_WIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBFA281E6F0D61AF5ECC3EB6 /* Pods_RuterPilot_WIP.framework */; };
+		6A9802521EE6E08500C7CEEB /* TravelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09B71EDC341300F576B3 /* TravelsViewController.xib */; };
+		6A9802531EE6E08500C7CEEB /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE352471EE19FE1006C6C0A /* RemoteConfigDefaults.plist */; };
+		6A9802541EE6E08500C7CEEB /* gs-com-ruter-RuterPilot-WIP-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE3524A1EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-info.plist */; };
+		6A9802551EE6E08500C7CEEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A046CBD1EDDA09B00C79575 /* Images.xcassets */; };
+		6A9802561EE6E08500C7CEEB /* BluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09BF1EDC4B0A00F576B3 /* BluetoothViewController.xib */; };
+		6A9802571EE6E08500C7CEEB /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09BB1EDC362A00F576B3 /* ContactViewController.xib */; };
+		6A9802581EE6E08500C7CEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09791ED2FBD500F576B3 /* LaunchScreen.storyboard */; };
+		6A9802591EE6E08500C7CEEB /* OnboardIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB098B1ED3179100F576B3 /* OnboardIntroViewController.xib */; };
+		6A98025A1EE6E08500C7CEEB /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09B31EDC296E00F576B3 /* ProfileViewController.xib */; };
+		6A98025B1EE6E08500C7CEEB /* OnboardingRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB098F1ED31FD500F576B3 /* OnboardingRootViewController.xib */; };
+		6A98025C1EE6E08500C7CEEB /* OnboardBluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09A71EDBFB7B00F576B3 /* OnboardBluetoothViewController.xib */; };
+		6A98025D1EE6E08500C7CEEB /* SuccessMobilePayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB099F1ED857D700F576B3 /* SuccessMobilePayViewController.xib */; };
+		6A98025E1EE6E08500C7CEEB /* container in Resources */ = {isa = PBXBuildFile; fileRef = 6A98023A1EE6D93D00C7CEEB /* container */; };
+		6A98025F1EE6E08500C7CEEB /* CreateUserPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09971ED844C800F576B3 /* CreateUserPasswordViewController.xib */; };
+		6A9802601EE6E08500C7CEEB /* gs-com-ruter-RuterPilot-WIP-dev-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE352491EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-dev-info.plist */; };
+		6A9802611EE6E08500C7CEEB /* OnboardingCreateUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09931ED837AB00F576B3 /* OnboardingCreateUserViewController.xib */; };
+		6A9802621EE6E08500C7CEEB /* TicketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09AD1EDC191200F576B3 /* TicketViewController.xib */; };
+		6A9802631EE6E08500C7CEEB /* ConnectMobilePayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB099B1ED851DA00F576B3 /* ConnectMobilePayViewController.xib */; };
+		6A9802641EE6E08500C7CEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09741ED2FBD500F576B3 /* Main.storyboard */; };
+		6A9802651EE6E08500C7CEEB /* SetupAndDescripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09A31EDBF54400F576B3 /* SetupAndDescripViewController.xib */; };
+		6A98026F1EE6EC4E00C7CEEB /* LegacyProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A98026E1EE6EC4E00C7CEEB /* LegacyProxy.swift */; };
+		6AAB09711ED2FBD500F576B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09701ED2FBD500F576B3 /* AppDelegate.swift */; };
+		6AAB09761ED2FBD500F576B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09741ED2FBD500F576B3 /* Main.storyboard */; };
+		6AAB097B1ED2FBD500F576B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09791ED2FBD500F576B3 /* LaunchScreen.storyboard */; };
+		6AAB09851ED30F3C00F576B3 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09841ED30F3C00F576B3 /* MainController.swift */; };
+		6AAB098C1ED3179100F576B3 /* OnboardIntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB098A1ED3179100F576B3 /* OnboardIntroViewController.swift */; };
+		6AAB098D1ED3179100F576B3 /* OnboardIntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB098B1ED3179100F576B3 /* OnboardIntroViewController.xib */; };
+		6AAB09901ED31FD500F576B3 /* OnboardingRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB098E1ED31FD500F576B3 /* OnboardingRootViewController.swift */; };
+		6AAB09911ED31FD500F576B3 /* OnboardingRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB098F1ED31FD500F576B3 /* OnboardingRootViewController.xib */; };
+		6AAB09941ED837AB00F576B3 /* OnboardingCreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09921ED837AB00F576B3 /* OnboardingCreateUserViewController.swift */; };
+		6AAB09951ED837AB00F576B3 /* OnboardingCreateUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09931ED837AB00F576B3 /* OnboardingCreateUserViewController.xib */; };
+		6AAB09981ED844C800F576B3 /* CreateUserPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09961ED844C800F576B3 /* CreateUserPasswordViewController.swift */; };
+		6AAB09991ED844C800F576B3 /* CreateUserPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09971ED844C800F576B3 /* CreateUserPasswordViewController.xib */; };
+		6AAB099C1ED851DA00F576B3 /* ConnectMobilePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB099A1ED851DA00F576B3 /* ConnectMobilePayViewController.swift */; };
+		6AAB099D1ED851DA00F576B3 /* ConnectMobilePayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB099B1ED851DA00F576B3 /* ConnectMobilePayViewController.xib */; };
+		6AAB09A01ED857D700F576B3 /* SuccessMobilePayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB099E1ED857D700F576B3 /* SuccessMobilePayViewController.swift */; };
+		6AAB09A11ED857D700F576B3 /* SuccessMobilePayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB099F1ED857D700F576B3 /* SuccessMobilePayViewController.xib */; };
+		6AAB09A41EDBF54400F576B3 /* SetupAndDescripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09A21EDBF54400F576B3 /* SetupAndDescripViewController.swift */; };
+		6AAB09A51EDBF54400F576B3 /* SetupAndDescripViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09A31EDBF54400F576B3 /* SetupAndDescripViewController.xib */; };
+		6AAB09A81EDBFB7B00F576B3 /* OnboardBluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09A61EDBFB7B00F576B3 /* OnboardBluetoothViewController.swift */; };
+		6AAB09A91EDBFB7B00F576B3 /* OnboardBluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09A71EDBFB7B00F576B3 /* OnboardBluetoothViewController.xib */; };
+		6AAB09AB1EDC060F00F576B3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09AA1EDC060F00F576B3 /* Utils.swift */; };
+		6AAB09AE1EDC191200F576B3 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09AC1EDC191200F576B3 /* TicketViewController.swift */; };
+		6AAB09AF1EDC191200F576B3 /* TicketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09AD1EDC191200F576B3 /* TicketViewController.xib */; };
+		6AAB09B41EDC296E00F576B3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09B21EDC296E00F576B3 /* ProfileViewController.swift */; };
+		6AAB09B51EDC296E00F576B3 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09B31EDC296E00F576B3 /* ProfileViewController.xib */; };
+		6AAB09B81EDC341300F576B3 /* TravelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09B61EDC341300F576B3 /* TravelsViewController.swift */; };
+		6AAB09B91EDC341300F576B3 /* TravelsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09B71EDC341300F576B3 /* TravelsViewController.xib */; };
+		6AAB09BC1EDC362A00F576B3 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09BA1EDC362A00F576B3 /* ContactViewController.swift */; };
+		6AAB09BD1EDC362A00F576B3 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09BB1EDC362A00F576B3 /* ContactViewController.xib */; };
+		6AAB09C01EDC4B0A00F576B3 /* BluetoothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAB09BE1EDC4B0A00F576B3 /* BluetoothViewController.swift */; };
+		6AAB09C11EDC4B0A00F576B3 /* BluetoothViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AAB09BF1EDC4B0A00F576B3 /* BluetoothViewController.xib */; };
+		6AE352481EE19FE1006C6C0A /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE352471EE19FE1006C6C0A /* RemoteConfigDefaults.plist */; };
+		6AE3524B1EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-dev-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE352491EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-dev-info.plist */; };
+		6AE3524C1EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AE3524A1EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A046CBD1EDDA09B00C79575 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6A98023A1EE6D93D00C7CEEB /* container */ = {isa = PBXFileReference; lastKnownFileType = folder; name = container; path = ../../../container; sourceTree = "<group>"; };
+		6A98026B1EE6E08500C7CEEB /* RuterPilot_WIP dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RuterPilot_WIP dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A98026C1EE6E08600C7CEEB /* RuterPilot_WIP copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RuterPilot_WIP copy-Info.plist"; path = "/Users/lars.kristiansen/Ruter/iOS-RuterPilotWIP/RuterPilot_WIP/RuterPilot_WIP copy-Info.plist"; sourceTree = "<absolute>"; };
+		6A98026E1EE6EC4E00C7CEEB /* LegacyProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LegacyProxy.swift; path = ../../../LegacyProxy.swift; sourceTree = "<group>"; };
+		6AAB096D1ED2FBD500F576B3 /* RuterPilot_WIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuterPilot_WIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAB09701ED2FBD500F576B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6AAB09751ED2FBD500F576B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6AAB097A1ED2FBD500F576B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6AAB097C1ED2FBD500F576B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AAB09841ED30F3C00F576B3 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		6AAB098A1ED3179100F576B3 /* OnboardIntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardIntroViewController.swift; sourceTree = "<group>"; };
+		6AAB098B1ED3179100F576B3 /* OnboardIntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardIntroViewController.xib; sourceTree = "<group>"; };
+		6AAB098E1ED31FD500F576B3 /* OnboardingRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingRootViewController.swift; sourceTree = "<group>"; };
+		6AAB098F1ED31FD500F576B3 /* OnboardingRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingRootViewController.xib; sourceTree = "<group>"; };
+		6AAB09921ED837AB00F576B3 /* OnboardingCreateUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingCreateUserViewController.swift; sourceTree = "<group>"; };
+		6AAB09931ED837AB00F576B3 /* OnboardingCreateUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardingCreateUserViewController.xib; sourceTree = "<group>"; };
+		6AAB09961ED844C800F576B3 /* CreateUserPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserPasswordViewController.swift; sourceTree = "<group>"; };
+		6AAB09971ED844C800F576B3 /* CreateUserPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateUserPasswordViewController.xib; sourceTree = "<group>"; };
+		6AAB099A1ED851DA00F576B3 /* ConnectMobilePayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectMobilePayViewController.swift; sourceTree = "<group>"; };
+		6AAB099B1ED851DA00F576B3 /* ConnectMobilePayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConnectMobilePayViewController.xib; sourceTree = "<group>"; };
+		6AAB099E1ED857D700F576B3 /* SuccessMobilePayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessMobilePayViewController.swift; sourceTree = "<group>"; };
+		6AAB099F1ED857D700F576B3 /* SuccessMobilePayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SuccessMobilePayViewController.xib; sourceTree = "<group>"; };
+		6AAB09A21EDBF54400F576B3 /* SetupAndDescripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupAndDescripViewController.swift; sourceTree = "<group>"; };
+		6AAB09A31EDBF54400F576B3 /* SetupAndDescripViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupAndDescripViewController.xib; sourceTree = "<group>"; };
+		6AAB09A61EDBFB7B00F576B3 /* OnboardBluetoothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardBluetoothViewController.swift; sourceTree = "<group>"; };
+		6AAB09A71EDBFB7B00F576B3 /* OnboardBluetoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnboardBluetoothViewController.xib; sourceTree = "<group>"; };
+		6AAB09AA1EDC060F00F576B3 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		6AAB09AC1EDC191200F576B3 /* TicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		6AAB09AD1EDC191200F576B3 /* TicketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TicketViewController.xib; sourceTree = "<group>"; };
+		6AAB09B21EDC296E00F576B3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		6AAB09B31EDC296E00F576B3 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		6AAB09B61EDC341300F576B3 /* TravelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelsViewController.swift; sourceTree = "<group>"; };
+		6AAB09B71EDC341300F576B3 /* TravelsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelsViewController.xib; sourceTree = "<group>"; };
+		6AAB09BA1EDC362A00F576B3 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		6AAB09BB1EDC362A00F576B3 /* ContactViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactViewController.xib; sourceTree = "<group>"; };
+		6AAB09BE1EDC4B0A00F576B3 /* BluetoothViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothViewController.swift; sourceTree = "<group>"; };
+		6AAB09BF1EDC4B0A00F576B3 /* BluetoothViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothViewController.xib; sourceTree = "<group>"; };
+		6AE352471EE19FE1006C6C0A /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		6AE352491EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-dev-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gs-com-ruter-RuterPilot-WIP-dev-info.plist"; sourceTree = "<group>"; };
+		6AE3524A1EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gs-com-ruter-RuterPilot-WIP-info.plist"; sourceTree = "<group>"; };
+		7F3DDAEC6B8AF880581AD2BD /* Pods-RuterPilot_WIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuterPilot_WIP.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuterPilot_WIP/Pods-RuterPilot_WIP.release.xcconfig"; sourceTree = "<group>"; };
+		DD4F08C32A5194EB690FCCD4 /* Pods-RuterPilot_WIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuterPilot_WIP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuterPilot_WIP/Pods-RuterPilot_WIP.debug.xcconfig"; sourceTree = "<group>"; };
+		EBFA281E6F0D61AF5ECC3EB6 /* Pods_RuterPilot_WIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuterPilot_WIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A98024F1EE6E08500C7CEEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9802501EE6E08500C7CEEB /* Pods_RuterPilot_WIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB096A1ED2FBD500F576B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048F4BB48D9F16D93926E1BF /* Pods_RuterPilot_WIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39E231D8507D33DFFC3EA896 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD4F08C32A5194EB690FCCD4 /* Pods-RuterPilot_WIP.debug.xcconfig */,
+				7F3DDAEC6B8AF880581AD2BD /* Pods-RuterPilot_WIP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6A769FB11EDEDFDC009C1067 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB09AA1EDC060F00F576B3 /* Utils.swift */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		6A98026D1EE6EC3000C7CEEB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6A98026E1EE6EC4E00C7CEEB /* LegacyProxy.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		6AAB09641ED2FBD500F576B3 = {
+			isa = PBXGroup;
+			children = (
+				6AAB096F1ED2FBD500F576B3 /* RuterPilot_WIP */,
+				6AAB096E1ED2FBD500F576B3 /* Products */,
+				39E231D8507D33DFFC3EA896 /* Pods */,
+				B1DE07227689FDD67963CB22 /* Frameworks */,
+				6A98026C1EE6E08600C7CEEB /* RuterPilot_WIP copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		6AAB096E1ED2FBD500F576B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB096D1ED2FBD500F576B3 /* RuterPilot_WIP.app */,
+				6A98026B1EE6E08500C7CEEB /* RuterPilot_WIP dev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AAB096F1ED2FBD500F576B3 /* RuterPilot_WIP */ = {
+			isa = PBXGroup;
+			children = (
+				6A98023A1EE6D93D00C7CEEB /* container */,
+				6A046CBD1EDDA09B00C79575 /* Images.xcassets */,
+				6AAB09701ED2FBD500F576B3 /* AppDelegate.swift */,
+				6AAB09841ED30F3C00F576B3 /* MainController.swift */,
+				6AAB09741ED2FBD500F576B3 /* Main.storyboard */,
+				6AAB09791ED2FBD500F576B3 /* LaunchScreen.storyboard */,
+				6AE352491EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-dev-info.plist */,
+				6AE3524A1EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-info.plist */,
+				6AE352471EE19FE1006C6C0A /* RemoteConfigDefaults.plist */,
+				6AAB097C1ED2FBD500F576B3 /* Info.plist */,
+				6AAB09831ED2FE7300F576B3 /* Views */,
+				6A98026D1EE6EC3000C7CEEB /* Core */,
+				6AAB09821ED2FE6C00F576B3 /* Controllers */,
+				6A769FB11EDEDFDC009C1067 /* Tools */,
+			);
+			path = RuterPilot_WIP;
+			sourceTree = "<group>";
+		};
+		6AAB09821ED2FE6C00F576B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB098E1ED31FD500F576B3 /* OnboardingRootViewController.swift */,
+				6AAB098A1ED3179100F576B3 /* OnboardIntroViewController.swift */,
+				6AAB09921ED837AB00F576B3 /* OnboardingCreateUserViewController.swift */,
+				6AAB09961ED844C800F576B3 /* CreateUserPasswordViewController.swift */,
+				6AAB099A1ED851DA00F576B3 /* ConnectMobilePayViewController.swift */,
+				6AAB099E1ED857D700F576B3 /* SuccessMobilePayViewController.swift */,
+				6AAB09A21EDBF54400F576B3 /* SetupAndDescripViewController.swift */,
+				6AAB09A61EDBFB7B00F576B3 /* OnboardBluetoothViewController.swift */,
+				6AAB09B01EDC191C00F576B3 /* Tabs */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6AAB09831ED2FE7300F576B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB098F1ED31FD500F576B3 /* OnboardingRootViewController.xib */,
+				6AAB098B1ED3179100F576B3 /* OnboardIntroViewController.xib */,
+				6AAB09931ED837AB00F576B3 /* OnboardingCreateUserViewController.xib */,
+				6AAB09971ED844C800F576B3 /* CreateUserPasswordViewController.xib */,
+				6AAB099B1ED851DA00F576B3 /* ConnectMobilePayViewController.xib */,
+				6AAB099F1ED857D700F576B3 /* SuccessMobilePayViewController.xib */,
+				6AAB09A31EDBF54400F576B3 /* SetupAndDescripViewController.xib */,
+				6AAB09A71EDBFB7B00F576B3 /* OnboardBluetoothViewController.xib */,
+				6AAB09B11EDC192800F576B3 /* Tabs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6AAB09B01EDC191C00F576B3 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB09AC1EDC191200F576B3 /* TicketViewController.swift */,
+				6AAB09B61EDC341300F576B3 /* TravelsViewController.swift */,
+				6AAB09BA1EDC362A00F576B3 /* ContactViewController.swift */,
+				6AAB09B21EDC296E00F576B3 /* ProfileViewController.swift */,
+				6AAB09BE1EDC4B0A00F576B3 /* BluetoothViewController.swift */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		6AAB09B11EDC192800F576B3 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				6AAB09AD1EDC191200F576B3 /* TicketViewController.xib */,
+				6AAB09B71EDC341300F576B3 /* TravelsViewController.xib */,
+				6AAB09BB1EDC362A00F576B3 /* ContactViewController.xib */,
+				6AAB09B31EDC296E00F576B3 /* ProfileViewController.xib */,
+				6AAB09BF1EDC4B0A00F576B3 /* BluetoothViewController.xib */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		B1DE07227689FDD67963CB22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBFA281E6F0D61AF5ECC3EB6 /* Pods_RuterPilot_WIP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A98023C1EE6E08500C7CEEB /* RuterPilot_WIP dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A9802681EE6E08500C7CEEB /* Build configuration list for PBXNativeTarget "RuterPilot_WIP dev" */;
+			buildPhases = (
+				6A98023D1EE6E08500C7CEEB /* [CP] Check Pods Manifest.lock */,
+				6A98023E1EE6E08500C7CEEB /* Sources */,
+				6A98024F1EE6E08500C7CEEB /* Frameworks */,
+				6A9802511EE6E08500C7CEEB /* Resources */,
+				6A9802661EE6E08500C7CEEB /* [CP] Embed Pods Frameworks */,
+				6A9802671EE6E08500C7CEEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RuterPilot_WIP dev";
+			productName = RuterPilot_WIP;
+			productReference = 6A98026B1EE6E08500C7CEEB /* RuterPilot_WIP dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6AAB096C1ED2FBD500F576B3 /* RuterPilot_WIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AAB097F1ED2FBD600F576B3 /* Build configuration list for PBXNativeTarget "RuterPilot_WIP" */;
+			buildPhases = (
+				67EB121AEE17409BD5E09A14 /* [CP] Check Pods Manifest.lock */,
+				6AAB09691ED2FBD500F576B3 /* Sources */,
+				6AAB096A1ED2FBD500F576B3 /* Frameworks */,
+				6AAB096B1ED2FBD500F576B3 /* Resources */,
+				DF5829FEC396E346A1835FCD /* [CP] Embed Pods Frameworks */,
+				8BBFEF62D2C31A9F1D39E30B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RuterPilot_WIP;
+			productName = RuterPilot_WIP;
+			productReference = 6AAB096D1ED2FBD500F576B3 /* RuterPilot_WIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AAB09651ED2FBD500F576B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lars Petter Kristiansen";
+				TargetAttributes = {
+					6A98023C1EE6E08500C7CEEB = {
+						DevelopmentTeam = F58LCP5GW4;
+					};
+					6AAB096C1ED2FBD500F576B3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = F58LCP5GW4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6AAB09681ED2FBD500F576B3 /* Build configuration list for PBXProject "RuterPilot_WIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AAB09641ED2FBD500F576B3;
+			productRefGroup = 6AAB096E1ED2FBD500F576B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AAB096C1ED2FBD500F576B3 /* RuterPilot_WIP */,
+				6A98023C1EE6E08500C7CEEB /* RuterPilot_WIP dev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A9802511EE6E08500C7CEEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A9802521EE6E08500C7CEEB /* TravelsViewController.xib in Resources */,
+				6A9802531EE6E08500C7CEEB /* RemoteConfigDefaults.plist in Resources */,
+				6A9802541EE6E08500C7CEEB /* gs-com-ruter-RuterPilot-WIP-info.plist in Resources */,
+				6A9802551EE6E08500C7CEEB /* Images.xcassets in Resources */,
+				6A9802561EE6E08500C7CEEB /* BluetoothViewController.xib in Resources */,
+				6A9802571EE6E08500C7CEEB /* ContactViewController.xib in Resources */,
+				6A9802581EE6E08500C7CEEB /* LaunchScreen.storyboard in Resources */,
+				6A9802591EE6E08500C7CEEB /* OnboardIntroViewController.xib in Resources */,
+				6A98025A1EE6E08500C7CEEB /* ProfileViewController.xib in Resources */,
+				6A98025B1EE6E08500C7CEEB /* OnboardingRootViewController.xib in Resources */,
+				6A98025C1EE6E08500C7CEEB /* OnboardBluetoothViewController.xib in Resources */,
+				6A98025D1EE6E08500C7CEEB /* SuccessMobilePayViewController.xib in Resources */,
+				6A98025E1EE6E08500C7CEEB /* container in Resources */,
+				6A98025F1EE6E08500C7CEEB /* CreateUserPasswordViewController.xib in Resources */,
+				6A9802601EE6E08500C7CEEB /* gs-com-ruter-RuterPilot-WIP-dev-info.plist in Resources */,
+				6A9802611EE6E08500C7CEEB /* OnboardingCreateUserViewController.xib in Resources */,
+				6A9802621EE6E08500C7CEEB /* TicketViewController.xib in Resources */,
+				6A9802631EE6E08500C7CEEB /* ConnectMobilePayViewController.xib in Resources */,
+				6A9802641EE6E08500C7CEEB /* Main.storyboard in Resources */,
+				6A9802651EE6E08500C7CEEB /* SetupAndDescripViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB096B1ED2FBD500F576B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB09B91EDC341300F576B3 /* TravelsViewController.xib in Resources */,
+				6AE352481EE19FE1006C6C0A /* RemoteConfigDefaults.plist in Resources */,
+				6AE3524C1EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-info.plist in Resources */,
+				6A046CBE1EDDA09B00C79575 /* Images.xcassets in Resources */,
+				6AAB09C11EDC4B0A00F576B3 /* BluetoothViewController.xib in Resources */,
+				6AAB09BD1EDC362A00F576B3 /* ContactViewController.xib in Resources */,
+				6AAB097B1ED2FBD500F576B3 /* LaunchScreen.storyboard in Resources */,
+				6AAB098D1ED3179100F576B3 /* OnboardIntroViewController.xib in Resources */,
+				6AAB09B51EDC296E00F576B3 /* ProfileViewController.xib in Resources */,
+				6AAB09911ED31FD500F576B3 /* OnboardingRootViewController.xib in Resources */,
+				6AAB09A91EDBFB7B00F576B3 /* OnboardBluetoothViewController.xib in Resources */,
+				6AAB09A11ED857D700F576B3 /* SuccessMobilePayViewController.xib in Resources */,
+				6A98023B1EE6D93D00C7CEEB /* container in Resources */,
+				6AAB09991ED844C800F576B3 /* CreateUserPasswordViewController.xib in Resources */,
+				6AE3524B1EE1A204006C6C0A /* gs-com-ruter-RuterPilot-WIP-dev-info.plist in Resources */,
+				6AAB09951ED837AB00F576B3 /* OnboardingCreateUserViewController.xib in Resources */,
+				6AAB09AF1EDC191200F576B3 /* TicketViewController.xib in Resources */,
+				6AAB099D1ED851DA00F576B3 /* ConnectMobilePayViewController.xib in Resources */,
+				6AAB09761ED2FBD500F576B3 /* Main.storyboard in Resources */,
+				6AAB09A51EDBF54400F576B3 /* SetupAndDescripViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67EB121AEE17409BD5E09A14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A98023D1EE6E08500C7CEEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9802661EE6E08500C7CEEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuterPilot_WIP/Pods-RuterPilot_WIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9802671EE6E08500C7CEEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuterPilot_WIP/Pods-RuterPilot_WIP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBFEF62D2C31A9F1D39E30B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuterPilot_WIP/Pods-RuterPilot_WIP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF5829FEC396E346A1835FCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RuterPilot_WIP/Pods-RuterPilot_WIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A98023E1EE6E08500C7CEEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A98023F1EE6E08500C7CEEB /* SetupAndDescripViewController.swift in Sources */,
+				6A9802401EE6E08500C7CEEB /* MainController.swift in Sources */,
+				6A9802411EE6E08500C7CEEB /* SuccessMobilePayViewController.swift in Sources */,
+				6A9802421EE6E08500C7CEEB /* OnboardBluetoothViewController.swift in Sources */,
+				6A9802431EE6E08500C7CEEB /* AppDelegate.swift in Sources */,
+				6A9802441EE6E08500C7CEEB /* OnboardingCreateUserViewController.swift in Sources */,
+				6A9802451EE6E08500C7CEEB /* TravelsViewController.swift in Sources */,
+				6A9802461EE6E08500C7CEEB /* OnboardIntroViewController.swift in Sources */,
+				6A9802471EE6E08500C7CEEB /* Utils.swift in Sources */,
+				6A9802481EE6E08500C7CEEB /* TicketViewController.swift in Sources */,
+				6A9802491EE6E08500C7CEEB /* ConnectMobilePayViewController.swift in Sources */,
+				6A98024A1EE6E08500C7CEEB /* ProfileViewController.swift in Sources */,
+				6A98024B1EE6E08500C7CEEB /* CreateUserPasswordViewController.swift in Sources */,
+				6A98024C1EE6E08500C7CEEB /* BluetoothViewController.swift in Sources */,
+				6A98024D1EE6E08500C7CEEB /* OnboardingRootViewController.swift in Sources */,
+				6A98024E1EE6E08500C7CEEB /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAB09691ED2FBD500F576B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAB09A41EDBF54400F576B3 /* SetupAndDescripViewController.swift in Sources */,
+				6AAB09851ED30F3C00F576B3 /* MainController.swift in Sources */,
+				6A98026F1EE6EC4E00C7CEEB /* LegacyProxy.swift in Sources */,
+				6AAB09A01ED857D700F576B3 /* SuccessMobilePayViewController.swift in Sources */,
+				6AAB09A81EDBFB7B00F576B3 /* OnboardBluetoothViewController.swift in Sources */,
+				6AAB09711ED2FBD500F576B3 /* AppDelegate.swift in Sources */,
+				6AAB09941ED837AB00F576B3 /* OnboardingCreateUserViewController.swift in Sources */,
+				6AAB09B81EDC341300F576B3 /* TravelsViewController.swift in Sources */,
+				6AAB098C1ED3179100F576B3 /* OnboardIntroViewController.swift in Sources */,
+				6AAB09AB1EDC060F00F576B3 /* Utils.swift in Sources */,
+				6AAB09AE1EDC191200F576B3 /* TicketViewController.swift in Sources */,
+				6AAB099C1ED851DA00F576B3 /* ConnectMobilePayViewController.swift in Sources */,
+				6AAB09B41EDC296E00F576B3 /* ProfileViewController.swift in Sources */,
+				6AAB09981ED844C800F576B3 /* CreateUserPasswordViewController.swift in Sources */,
+				6AAB09C01EDC4B0A00F576B3 /* BluetoothViewController.swift in Sources */,
+				6AAB09901ED31FD500F576B3 /* OnboardingRootViewController.swift in Sources */,
+				6AAB09BC1EDC362A00F576B3 /* ContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6AAB09741ED2FBD500F576B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AAB09751ED2FBD500F576B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6AAB09791ED2FBD500F576B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AAB097A1ED2FBD500F576B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A9802691EE6E08500C7CEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4F08C32A5194EB690FCCD4 /* Pods-RuterPilot_WIP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F58LCP5GW4;
+				INFOPLIST_FILE = "RuterPilot_WIP copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruter.RuterPilot-WIP.dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A98026A1EE6E08500C7CEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3DDAEC6B8AF880581AD2BD /* Pods-RuterPilot_WIP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F58LCP5GW4;
+				INFOPLIST_FILE = "RuterPilot_WIP copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruter.RuterPilot-WIP.dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6AAB097D1ED2FBD600F576B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6AAB097E1ED2FBD600F576B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6AAB09801ED2FBD600F576B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4F08C32A5194EB690FCCD4 /* Pods-RuterPilot_WIP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F58LCP5GW4;
+				INFOPLIST_FILE = RuterPilot_WIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruter.RuterPilot-WIP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6AAB09811ED2FBD600F576B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F3DDAEC6B8AF880581AD2BD /* Pods-RuterPilot_WIP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = F58LCP5GW4;
+				INFOPLIST_FILE = RuterPilot_WIP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ruter.RuterPilot-WIP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A9802681EE6E08500C7CEEB /* Build configuration list for PBXNativeTarget "RuterPilot_WIP dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A9802691EE6E08500C7CEEB /* Debug */,
+				6A98026A1EE6E08500C7CEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAB09681ED2FBD500F576B3 /* Build configuration list for PBXProject "RuterPilot_WIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB097D1ED2FBD600F576B3 /* Debug */,
+				6AAB097E1ED2FBD600F576B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AAB097F1ED2FBD600F576B3 /* Build configuration list for PBXNativeTarget "RuterPilot_WIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AAB09801ED2FBD600F576B3 /* Debug */,
+				6AAB09811ED2FBD600F576B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AAB09651ED2FBD500F576B3 /* Project object */;
+}

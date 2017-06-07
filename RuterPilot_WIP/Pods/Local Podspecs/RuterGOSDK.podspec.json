@@ -1,0 +1,37 @@
+{
+  "name": "RuterGOSDK",
+  "version": "2.2.41",
+  "summary": "RuterGO Trip and Proximity SDK.",
+  "homepage": "https://ruter.no",
+  "authors": {
+    "Per-Ove Joakimsen": "perjoa@knowit.no"
+  },
+  "license": {
+    "type": "Restricted",
+    "file": "LICENSE"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://stash.ruter.no/projects/NEX/rutergo-sdk-ios.git",
+    "tag": "2.2.41"
+  },
+  "ios": {
+    "vendored_frameworks": "RuterGOSDK.framework"
+  },
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "CocoaMQTT": [
+
+    ],
+    "CocoaAsyncSocket": [
+
+    ],
+    "SwiftyTimer": [
+
+    ]
+  }
+}

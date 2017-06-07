@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>proximity_max_required_rssi_all</key>
+	<string>-10</string>
+	<key>proximity_min_required_rssi_front</key>
+	<string>-83</string>
+	<key>proximity_min_required_rssi_back</key>
+	<string>-84</string>
+	<key>ranging_min_required_samples</key>
+	<string>10</string>
+	<key>ranging_max_intervals</key>
+	<string>40</string>
+	<key>detection_vehicle_filter_capacity</key>
+	<string>5</string>
+</dict>
+</plist>

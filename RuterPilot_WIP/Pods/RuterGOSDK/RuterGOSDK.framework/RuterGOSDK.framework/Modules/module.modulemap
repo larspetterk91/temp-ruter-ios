@@ -1,0 +1,10 @@
+framework module RuterGOSDK {
+  umbrella header "RuterGOSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module RuterGOSDK.Swift {
+    header "RuterGOSDK-Swift.h"
+}

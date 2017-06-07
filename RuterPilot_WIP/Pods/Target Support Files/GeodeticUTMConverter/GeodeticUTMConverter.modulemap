@@ -1,0 +1,6 @@
+framework module GeodeticUTMConverter {
+  umbrella header "GeodeticUTMConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}
